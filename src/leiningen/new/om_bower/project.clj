@@ -16,7 +16,8 @@
                  [org.clojure/clojurescript "0.0-2311"]
                  [org.clojure/core.async "0.1.338.0-5c5012-alpha"]
                  [om "0.7.1"]
-                 [com.facebook/react "0.11.1"]]
+                 [com.facebook/react "0.11.1"]
+                 [racehub/om-bootstrap "0.2.6"]]
   
   :plugins [[lein-cljsbuild "1.0.3"]]
 

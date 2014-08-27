@@ -10,5 +10,5 @@ to manage JavaScript libraries."
                               [:name "Matthias Hoelzl"]
                               [:url "https://github.com/hoelzl"]
                               [:email "tc@xantira.com"]]]
-  :repositories [["local" "file:///$HOME/.m2/repository"]]
+  :repositories [["local" "file:///Users/tc/.m2/repository"]]
   :eval-in-leiningen true)
