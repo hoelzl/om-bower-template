@@ -1,0 +1,9 @@
+{
+    "directory": "dev-resources/public/vendor",
+
+    "registry": {
+        "search": [
+            "https://bower.herokuapp.com"
+        ]
+    }
+}

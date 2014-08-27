@@ -1,0 +1,15 @@
+{
+    "name": "{raw-name}",
+    "version": "0.0.1-SNAPSHOT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "dev-resources/public/vendor",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "react": "~0.11.1"
+    }
+}
