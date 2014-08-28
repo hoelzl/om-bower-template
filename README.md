@@ -139,6 +139,7 @@ top-level form and type `cpp`.
 ## License
 
 Copyright © 2014 Mimmo Cosenza (aka @magomimmo)
+
 Copyright © 2014 Matthias Hölzl <tc@xantira.com>
 
 
