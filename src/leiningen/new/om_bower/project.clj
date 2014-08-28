@@ -19,6 +19,7 @@
                  [om "0.7.1"]
                  [prismatic/om-tools "0.3.3"]
                  [prismatic/plumbing "0.3.3"]
+                 [prismatic/schema "0.2.6"]
                  [racehub/om-bootstrap "0.2.6"]]
   
   :plugins [[lein-cljsbuild "1.0.3"]]

@@ -32,9 +32,11 @@
        zip/root
        hr/hickory-to-html))
 
+
 (defroutes site
   (resources "/")
-  (GET "/*" req (page)))
+  (GET "/" req (page))
+  (GET "/index.html" req (page)))
 
 (defn run
   "Run the ring server. It defines the server symbol with defonce."
