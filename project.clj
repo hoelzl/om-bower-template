@@ -1,4 +1,4 @@
-(defproject om-bower/lein-template "0.0.3"
+(defproject om-bower/lein-template "0.0.4-SNAPSHOT"
   :description "A lein-template for creating OM projects using Bower
 to manage JavaScript libraries."
   :url "https://github.com/hoelzl/om-bower-template"
@@ -11,4 +11,6 @@ to manage JavaScript libraries."
                               [:url "https://github.com/hoelzl"]
                               [:email "tc@xantira.com"]]]
   :repositories [["local" "file:///Users/tc/.m2/repository"]]
-  :eval-in-leiningen true)
+  :eval-in-leiningen true
+  :profiles {:dev {:aliases {"deploy"
+                             ["do" "deploy" "clojars"]}}})
