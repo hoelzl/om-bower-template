@@ -30,10 +30,7 @@
              ["LICENSE.EPL" (render "LICENSE.EPL" data)]
              ["LICENSE.MIT" (render "LICENSE.MIT" data)]
              ["README.md" (render "README.md" data)]
-             ["dev-resources/public/index.html" (render "index.html" data)]
-             ["dev-resources/tools/http/ring/server.clj" (render "server.clj" data)]
-             ["dev-resources/tools/repl/brepl/connect.cljs" (render "connect.cljs" data)]
+             ["index.html" (render "index.html" data)]
              ["doc/intro.md" (render "intro.md" data)]
              ["project.clj" (render "project.clj" data)]
-             ["profiles.clj" (render "profiles.clj" data)]
-             ["src/cljs/{{nested-dirs}}.cljs" (render "core.cljs" data)])))
+             ["src/{{nested-dirs}}.cljs" (render "core.cljs" data)])))

@@ -1,12 +1,12 @@
-pom.xml
-*jar
-/lib/
 /classes/
+/lib/
 /out/
 /target/
+/vendor/
+pom.xml
+*.jar
 .lein-deps-sum
 .lein-failures
 .lein-repl-history
 .lein-plugins/
 .repl
-/dev-resources/public/js/*

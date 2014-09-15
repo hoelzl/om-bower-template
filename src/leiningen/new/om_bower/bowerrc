@@ -1,5 +1,5 @@
 {
-    "directory": "dev-resources/public/vendor",
+    "directory": "vendor",
 
     "registry": {
         "search": [

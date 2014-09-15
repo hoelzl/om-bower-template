@@ -1,11 +1,11 @@
 {
-    "name": "{raw-name}",
+    "name": "{{raw-name}}",
     "version": "0.0.1-SNAPSHOT",
     "ignore": [
         "**/.*",
         "node_modules",
         "bower_components",
-        "dev-resources/public/vendor",
+        "vendor",
         "test",
         "tests"
     ],
