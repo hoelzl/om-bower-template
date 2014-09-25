@@ -1,4 +1,4 @@
-(defproject om-bower/lein-template "0.0.5-SNAPSHOT"
+(defproject om-bower/lein-template "0.0.5"
   :description "A lein-template for creating OM projects using Bower
 to manage JavaScript libraries."
   :url "https://github.com/hoelzl/om-bower-template"
