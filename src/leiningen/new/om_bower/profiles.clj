@@ -10,10 +10,11 @@
  :dev [:shared
        {:resources-paths ["dev-resources"]
         :source-paths ["dev-resources/tools/http" "dev-resources/tools/repl"]
-        :dependencies [[ring "1.2.1"]
-                       [compojure "1.1.6"]
-                       [hickory "0.5.3"]]
-        :plugins [[com.cemerick/austin "0.1.4"]
+        :dependencies [[ring "1.3.1"]
+                       [compojure "1.1.9"]
+                       [cheshire "5.3.1"]
+                       [hickory "0.5.4"]]
+        :plugins [[com.cemerick/austin "0.2.0-SNAPSHOT"]
                   [com.cemerick/clojurescript.test "0.3.1"]]
         :cljsbuild
         {:builds {:{{name}}

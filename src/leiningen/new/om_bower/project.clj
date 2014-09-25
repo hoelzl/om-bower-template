@@ -12,16 +12,18 @@
 
   :source-paths ["src/clj" "src/cljs"]
 
-  :dependencies [[org.clojure/clojure "1.7.0-alpha1"]
-                 [org.clojure/clojurescript "0.0-2322"]
-                 [org.clojure/core.async "0.1.338.0-5c5012-alpha"]
-                 [com.facebook/react "0.11.1"]
-                 [om "0.7.1"]
+  :dependencies [[org.clojure/clojure "1.7.0-alpha2"]
+                 [org.clojure/clojurescript "0.0-2342"]
+                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]
+                 [com.facebook/react "0.11.2"]
+                 [om "0.7.3"]
                  [prismatic/om-tools "0.3.3"]
-                 [prismatic/plumbing "0.3.4-SNAPSHOT"]
-                 [prismatic/schema "0.2.6"]
-                 [racehub/om-bootstrap "0.2.7"]]
-  
+                 [prismatic/plumbing "0.3.3"]
+                 [prismatic/schema "0.3.0"]
+                 [racehub/om-bootstrap "0.2.9"]
+                 [sablono "0.2.22"]
+                 [rm-hull/monet "0.2.1"]]
+    
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]]
 
   :hooks [leiningen.cljsbuild]
