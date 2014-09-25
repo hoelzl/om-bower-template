@@ -77,7 +77,7 @@
 (def app-state (atom {}))
 
 (reset! app-state
-        {:title {{raw-name}}
+        {:title "{{raw-name}}"
          :text-1 (box text-1)
          :text-2 (box text-2)
          :kv-table-1 {:key-1 "Value 1" :key-2 "Value 2"}
